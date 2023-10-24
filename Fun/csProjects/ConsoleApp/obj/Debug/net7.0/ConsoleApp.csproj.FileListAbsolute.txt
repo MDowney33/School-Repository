@@ -1,0 +1,15 @@
+/workspaces/codespaces-blank/Fun/csProjects/ConsoleApp/bin/Debug/net7.0/ConsoleApp
+/workspaces/codespaces-blank/Fun/csProjects/ConsoleApp/bin/Debug/net7.0/ConsoleApp.deps.json
+/workspaces/codespaces-blank/Fun/csProjects/ConsoleApp/bin/Debug/net7.0/ConsoleApp.runtimeconfig.json
+/workspaces/codespaces-blank/Fun/csProjects/ConsoleApp/bin/Debug/net7.0/ConsoleApp.dll
+/workspaces/codespaces-blank/Fun/csProjects/ConsoleApp/bin/Debug/net7.0/ConsoleApp.pdb
+/workspaces/codespaces-blank/Fun/csProjects/ConsoleApp/obj/Debug/net7.0/ConsoleApp.csproj.AssemblyReference.cache
+/workspaces/codespaces-blank/Fun/csProjects/ConsoleApp/obj/Debug/net7.0/ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/codespaces-blank/Fun/csProjects/ConsoleApp/obj/Debug/net7.0/ConsoleApp.AssemblyInfoInputs.cache
+/workspaces/codespaces-blank/Fun/csProjects/ConsoleApp/obj/Debug/net7.0/ConsoleApp.AssemblyInfo.cs
+/workspaces/codespaces-blank/Fun/csProjects/ConsoleApp/obj/Debug/net7.0/ConsoleApp.csproj.CoreCompileInputs.cache
+/workspaces/codespaces-blank/Fun/csProjects/ConsoleApp/obj/Debug/net7.0/ConsoleApp.dll
+/workspaces/codespaces-blank/Fun/csProjects/ConsoleApp/obj/Debug/net7.0/refint/ConsoleApp.dll
+/workspaces/codespaces-blank/Fun/csProjects/ConsoleApp/obj/Debug/net7.0/ConsoleApp.pdb
+/workspaces/codespaces-blank/Fun/csProjects/ConsoleApp/obj/Debug/net7.0/ConsoleApp.genruntimeconfig.cache
+/workspaces/codespaces-blank/Fun/csProjects/ConsoleApp/obj/Debug/net7.0/ref/ConsoleApp.dll

@@ -1,0 +1,8 @@
+
+returning value of a Python script - https://stackoverflow.com/questions/11900828/store-return-value-of-a-python-script-in-a-bash-script
+
+for creating a program that automatically makes the notes file each day for school by prompting a name and adding
+number
+
+
+https://chennylmf.medium.com/mac-pentest-series-install-apps-of-dmg-and-pkg-types-without-admin-password-b6925d839bfb#:~:text=If%20the%20application%20supports%20drag,an%20admin%20username%20and%20password.

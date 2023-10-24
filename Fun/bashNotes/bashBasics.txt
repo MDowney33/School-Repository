@@ -1,0 +1,33 @@
+
+Bash:
+    pwd - shows present working directory
+    ls - list all files and subdirectories
+    mkdir <name> - makes directory
+    rm <name> -r - removes directory
+    rm <name> - removes file
+    cd <name> - change terminal to a directory
+    cd .. - changes terminal up a directory
+    mv <old name> <new name> -renaming
+    touch <filename> -creates/updates a file
+    python <name> -runs python script
+    code <name> -opens tab for coding
+    read -asks for a user input
+    ${<variable>:<startIndex>:<length>} -substring of a variable
+    $((<numberAsString>)) -converts string number into int
+    ctrl+shift+` opens terminal
+    ctrl+shift+5 splits terminal
+    alt+arrow moves between terminals
+    ctrl+D or "exit" closes terminal
+    FILES:
+        "The directional operators for redirecting output to a file are > and >>.
+         The difference between them is that the > operator overwrites the 
+         contents of the specified file if it already exists, while the >> operator appends the output to the end of the file
+         If the file doesn't exist, it is created."
+        nano <file name> -makes and opens a file with easy to use interface
+        cat <file name> - view a file
+        printf "<text>" > <file name> -writes to a file
+    
+    For Mr. Martin (shows what he was trying to do yesterday):
+        cd
+        cd /
+        ls

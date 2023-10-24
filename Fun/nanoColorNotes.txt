@@ -1,0 +1,8 @@
+
+To edit nano color:
+cd
+sudo nano /usr/share/nano/python.nanorc
+[see if it is the same as file /workspaces/codespaces-blank/Fun/nanoColoring.txt]
+if not then empty the file python.nanorc and do:
+sudo cp /workspaces/codespaces-blank/Fun/nanoColoring.txt /usr/share/nano/python.nanorc
+
