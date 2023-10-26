@@ -1,0 +1,48 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class FPmovement : MonoBehaviour
+{
+
+    private Vector3 playerInput;
+    private Vector2 mouseInput;
+    private float xRot;
+
+    [SerializeField] private Rigidbody rb;
+    [SerializeField] private Transform playerCam;
+    [Space]
+    [SerializeField] private float speed;
+    [SerializeField] private float sensitivity;
+    [SerializeField] private float jumpForce;
+
+    // Update is called once per frame
+    private void FixedUpdate()
+    {
+        playerInput = new Vector3(Input.GetAxis("Horizontal"), 0f, Input.GetAxis("Vertical")) * speed;
+        mouseInput = new Vector2(Input.GetAxis("Mouse X"), Input.GetAxis("Mouse Y"));
+
+        PlayerMove();
+        CameraMove();
+    }
+
+    private void PlayerMove()
+    {
+        Vector3 movementVector = transform.TransformDirection(playerInput) * speed;
+        rb.velocity = new Vector3(movementVector.x, rb.velocity.y, movementVector.z);
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
+        }
+    }
+
+    private void CameraMove()
+    {
+        xRot -= mouseInput.y * sensitivity;
+
+        transform.Rotate(0f, mouseInput.x * sensitivity, 0f);
+        playerCam.transform.localRotation = Quaternion.Euler(xRot, 0f, 0f);
+    }
+
+}
