@@ -8,6 +8,6 @@ class jo:
 
 
 Jo = jo("hi ", "mom", 1000)
-Jo.word1
+print(Jo.word1)
 
 #Jo.repeat()
