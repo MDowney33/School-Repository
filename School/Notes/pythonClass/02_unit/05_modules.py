@@ -7,3 +7,7 @@ import random
 #modules contain variables for funtions and variable
 
 print(random.randint(1,100))
+
+import myStuff
+
+print(myStuff.myLists.myString)
