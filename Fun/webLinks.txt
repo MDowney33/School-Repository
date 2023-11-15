@@ -6,3 +6,5 @@ number
 
 
 https://chennylmf.medium.com/mac-pentest-series-install-apps-of-dmg-and-pkg-types-without-admin-password-b6925d839bfb#:~:text=If%20the%20application%20supports%20drag,an%20admin%20username%20and%20password.
+
+https://forum.unity.com/threads/unity-hub-a-security-risk.759851/#post-7604515
