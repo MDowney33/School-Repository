@@ -9,6 +9,6 @@
 # operators >,<,<=,>=,==,!=,in
 # installing unity without admin
 
-import myStuff
-if "joe" in myStuff.myLists.myString:
+import myStuff as ms
+if "joe" in ms.myLists.myString:
     print("yay")
